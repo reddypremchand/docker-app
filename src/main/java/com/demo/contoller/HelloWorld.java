@@ -12,4 +12,12 @@ public class HelloWorld {
 	public String getMessage() {
 		return "Hello World";
 	}
+	@GetMapping("/name")
+	public String getName() {
+		return "Premchand Reddy";
+	}
+	@GetMapping("/num")
+	public String getNumber() {
+		return "9348447714";
+	}
 }
